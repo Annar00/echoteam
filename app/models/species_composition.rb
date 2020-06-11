@@ -1,2 +1,0 @@
-class SpeciesComposition < ApplicationRecord
-end

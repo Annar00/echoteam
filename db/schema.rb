@@ -10,10 +10,17 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_06_11_095029) do
+ActiveRecord::Schema.define(version: 2020_06_11_215852) do
 
-  # These are extensions that must be enabled in order to support this database
-  enable_extension "plpgsql"
+  create_table "compositions", force: :cascade do |t|
+    t.integer "speciesCode"
+    t.float "percentage"
+    t.float "meanLength"
+    t.integer "bagNo"
+    t.string "echogramName"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
 
   create_table "echograms", force: :cascade do |t|
     t.string "echogramName"
@@ -50,16 +57,6 @@ ActiveRecord::Schema.define(version: 2020_06_11_095029) do
     t.string "englishName"
     t.string "frenchName"
     t.string "spanishName"
-    t.datetime "created_at", null: false
-    t.datetime "updated_at", null: false
-  end
-
-  create_table "species_compositions", force: :cascade do |t|
-    t.integer "speciesCode"
-    t.float "percentage"
-    t.float "meanLength"
-    t.integer "bagNo"
-    t.string "echogramName"
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
   end

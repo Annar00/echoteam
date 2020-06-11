@@ -1,0 +1,46 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Hauls</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Echogramname</th>
+      <th>Fishdate</th>
+      <th>Strtfishtime</th>
+      <th>Stpfishtime</th>
+      <th>Strtfishlat</th>
+      <th>Stpfishlat</th>
+      <th>Strtfishlong</th>
+      <th>Stpfishlong</th>
+      <th>Strtfishdepth</th>
+      <th>Stpfishdepth</th>
+      <th>Bottomdepth</th>
+      <th>Fishspeed</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @hauls.each do |haul| %>
+      <tr>
+        <td><%= haul.echogramName %></td>
+        <td><%= haul.fishDate %></td>
+        <td><%= haul.strtFishTime %></td>
+        <td><%= haul.stpFishTime %></td>
+        <td><%= haul.strtFishLat %></td>
+        <td><%= haul.stpFishLat %></td>
+        <td><%= haul.strtFishLong %></td>
+        <td><%= haul.stpFishLong %></td>
+        <td><%= haul.strtFishDepth %></td>
+        <td><%= haul.stpFishDepth %></td>
+        <td><%= haul.bottomDepth %></td>
+        <td><%= haul.fishSpeed %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
+

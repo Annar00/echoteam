@@ -1,0 +1,35 @@
+<p id="notice"><%= notice %></p>
+
+<h1>Echograms</h1>
+
+<table>
+  <thead>
+    <tr>
+      <th>Echogramname</th>
+      <th>Recorddate</th>
+      <th>Recordtime</th>
+      <th>Latitude</th>
+      <th>Longitude</th>
+      <th>Frequency</th>
+      <th>User</th>
+      <th colspan="3"></th>
+    </tr>
+  </thead>
+
+  <tbody>
+    <% @echograms.each do |echogram| %>
+      <tr>
+        <td><%= echogram.echogramName %></td>
+        <td><%= echogram.recordDate %></td>
+        <td><%= echogram.recordTime %></td>
+        <td><%= echogram.latitude %></td>
+        <td><%= echogram.longitude %></td>
+        <td><%= echogram.frequency %></td>
+        <td><%= echogram.user_id %></td>
+      </tr>
+    <% end %>
+  </tbody>
+</table>
+
+<br>
+
