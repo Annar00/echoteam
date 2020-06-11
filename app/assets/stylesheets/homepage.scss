@@ -1,0 +1,73 @@
+//Google map area
+#mapCanvas1,#mapCanvas2,#mapCanvas3,#mapCanvas4,#mapCanvas5,#mapCanvas6 {
+    height: 400px;  
+    width: 600px;  
+    };
+
+header{
+    color: white; 
+    background-color: #666;  
+};
+#header_txt{
+    padding-top: 5px;  
+    font-size: 25px;
+    position: absolute;
+    top: 10%;
+};
+body{
+    padding-top: 50px;
+};
+.image_map{
+    display: flex;
+    justify-content: flex-start;
+    padding-bottom: 40px;
+};
+.details{
+    display: flex;
+    justify-content: space-between;
+};
+.image_link{
+    padding-left: 40px;
+    font-size: 20px;
+    color: blue;
+    align-self: flex-start;
+};
+.location_txt{
+    padding-right: 40px;
+    font-size: 20px;
+    color: grey;
+    align-self: flex-start;
+};
+
+
+div#climate_select{
+    padding-top: 20px;
+	margin-top: 1px;
+	margin-left:40px;
+    font-size:20px;
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 10px;
+
+}
+
+div#mymap
+{   
+    padding-top: 20px;
+    display: flex;
+    justify-content: center;
+}
+
+.highcharts{
+    padding-top: 20px;
+}
+
+/* Clear floats after the columns */
+section:after 
+{
+    content: "";
+    display: block;
+    clear: both;
+}
+
+
