@@ -1,0 +1,149 @@
+﻿speciesCode,scientificName,englishName ,frenchName,spanishName
+10003,Petromyzon marinus,Sea lamprey,Lamproie marine,lamprea
+10134,Clupea harengus,Herring,Hareng,arenque
+10138,Alosa fallax,Twaite shad,Alose fallax,Saboga/alosa
+10152,Sardina pilchardus,Sardine,Sardine,sardina
+10153,Sprattus sprattus,Sprat,Sprat,espadín
+10156,Engraulis encrasicolus,anchovy,Anchois,anchoa
+10168,mallotus villosus,capelin,capelin,capelin
+10171,Argentina spp,Argentine,argentine,pez plata
+10177,Maurolicus muelleri,Silvery lightfish,,Anchoa de fondo
+10182,Lampanyctus crocodilus,,,pez linterna
+10225,Belone bellone,Gar-fish/long-nose,Orphie,aguja
+10251,Gadiculus argenteus,Silver pout,,marujito
+10255,gadus morhua,cod,Morue de l'Atlantique,bacalao
+10265,Melanogrammus aeglefinus,Haddock,eglefin,eglefino
+10266,Gaidropsarus mediterraneus,Sea loach,Loche,barbada
+10269,Pollachius virens,Saithe,lieu noir,carbonero
+10274,Trisopterus esmarki,Norway Pout,Tacaud norvegien,faneca noruega
+10275,Trisopterus minutus,T minutus,capelan/petit tacaud,faneca menor
+10276,Trisopterus luscus,Pouting,Tacaud commun,faneca
+10277,Micromesistius poutassou,Bl whiting,Merlan bleu,bacaladilla/lirio
+10279,Merlangius merlangus,Whiting,merlan,plegonero/merlan
+10283,Merluccius merluccius,hake,Merlu,merluza
+10310,Macroramphosus scolopax,Longspine snipefish,Bécasse de mer,trompetero
+10323,Capros aper,Boarfish,Sanglier,relojito/ochavo
+10331,Chelon labrosus,Thicklip grey mullet,Mulet lippu,mujel/lisa
+10351,Hyperoplus lanceolatus,,Lancon,pion
+10398,Dicentrarchus labrax,Bass,Bar,lubina
+10414,Trachurus trachurus,horse mackerel,Chinchard commun,jurel 
+10416,Trachurus mediterraneus,Mediterranean horse mackerel,Chinchard a queue jaune,jurel mediterraneo
+10495,Diplodus vulgaris,Common two-banded seabream,Sar,Mojarra/Sargo
+10507,Spondyliosoma cantharus,Black seabream,Dorade grise,chopa
+10522,Boops boops,Bogue,Bogue,boga
+10532,Sarpa salpa ,salema,Saupe,salema
+10615,Ammodytes spp,sandeel,Lancons (divers),lanzones
+10641,Scomber japonicus,Chub mackerel,Maquereau espagnol,estornino
+10642,Scomber scombrus,Mackerel,Maquereau commun,caballa
+10683,Crystallogobius,Chrystal Goby,<Crystallogobius>,jonquillo/chanquete
+10737,Eutrigla/Chelidonichthys gurnardus,Gray  gurnard,Cavillone/gournard,Perlón
+10768,Microstomus kitt,Lemon sole,limande sole,mendo limon
+10816,Mola mola,Moon-fish,Poisson lune,pez luna
+20021,PASIPHAEA,,,
+20202,DECAPODA,,,
+20202,NATANTIA,SINONIMOS,,
+20234,AMPHIPODA,SINONIMOS,,
+20235,MYSIDACEA,,,
+20298,CALANUS GRACILIS,,,
+20300,CALANUS MINOR,,,
+20306,RHINCALANUS NASUTUS,,,
+20337,TEMORA STYLIFERA,,,
+20340,PLEUROMAMMA ABDOMINALIS,,,
+20341,PLEUROMAMMA ROBUSTA,,,
+20343,PLEUROMAMMA GRACILIS,,,
+20347,CENTROPAGES VIOLACEUS,,,
+20352,HALOPTILUS LONGICORNIS,,,
+20355,CANDACIA BIPINNATA,,,
+20358,CANDACIA LONGIMANA,,,
+20361,CANDACIA SIMPLEX,,,
+20364,OITHONA PLUMIFERA,,,
+20366,OITHONA NANA,,,
+20387,CORYCAEUS FURCIFER,,,
+20391,OITHONA HELGOLANDICA,,,
+20396,AETIDEUS ARMATUS,,,
+20401,CENTROPAGES TYPICUS,,,
+20431,CANDACIA ARMATA,,,
+20440,CENTROPAGES,,,
+20445,CLAUSOCALANIDAE,,,
+20445,PSEUDOCALANIDAE,,,
+20447,MICROCALANUS,,,
+20448,PSEUDOCALANUS,,,
+20463,HETERORHABDUS NORVEGICUS,,,
+20489,METRIDIA,,,
+20497,PARACALANIDAE,,,
+20512,TEMORA,,,
+20521,ACARTIA,,,
+20524,AETIDEIDAE,,,
+20550,COPEPODA,,,
+20563,ISOPODA,,,
+20574,SAPPHIRINIDAE,,,
+20576,ONCAEIDAE,,,
+20578,ECTINOSOMATIDAE,,,
+20581,CALANOIDA,,,
+20582,CYCLOPOIDA,,,
+20583,HARPACTICOIDA,,,
+20587,OITHONA,,,
+20612,SERGESTES,,,
+20635,CALANUS FINMARCHICUS,,,
+20650,EUCHAETA,,,
+20656,SCOLECITHRICELLA MINOR,,,
+20667,ACARTIA LONGIREMIS,,,
+20670,ANOMALOCERA PATERSONI,,,
+20682,GAETANUS,,,
+20683,GAETANUS MINOR,,,
+20693,CORYCAEUS TYPICUS,,,
+20727,CHIRIDIUS POPPEI,,,
+20748,OSTRACODA,,,
+20784,MONSTRILLOIDA,,,
+20785,CHIRIDIUS ARMATUS,,,
+20788,CHIRIDIUS OBTUSIFRONS,,,
+20808,CALANUS BREVICORNIS,,,
+20840,ACARTIA DANAE,,,
+20842,EUCHAETA MARINA,,,
+20857,MIRACIIDAE,,,
+20872,CORYCAEUS CLAUSI,,,
+20874,CORYCAEUS FLACCUS,,,
+20939,GAETANUS BREVICORNIS,,,
+20949,PSEUDAETIDEUS ARMATUS,,,
+20958,CORYCAEUS SPECIOSUS,,,
+20997,HYPERIIDEA,,,
+21001,EUPHAUSIACEA,,,
+21005,GAMMARIDEA,,,
+21031,ONCAEA,,,
+21035,MYSIDAE,,,
+21055,HARPACTICIDAE,,,
+21069,NYCTIPHANES COUCHI,,,
+21070,MEGANYCTIPHANES NORVEGICA,,,
+21258,CALANUS HYPERBOREUS,,,
+21261,CALANUS GLACIALIS,,,
+21298,CLADOCERA,,,
+21342,PARATHEMISTO LIBELLULA,,,
+21343,PARATHEMISTO ABYSSORUM,,,
+21344,PARATHEMISTO GAUDICHAUDI,,,
+21345,STYLOCHEIRON LONGICORNE,,,
+21346,THYSANOESSA INERMIS,,,
+21347,THYSANOESSA LONGICAUDATA,,,
+21348,THYSANOESSA RASCHII,,,
+22000,CIRRIPEDIA,,,
+30066,GASTROPODA,,,
+30216,BIVALVIA,,,
+30651,LIMACINA RETROVERSA,,,
+30707,LIMACINA HELICINA,,,
+30710,CLIONE LIMACINA,,,
+50017,POLYCHAETA,,,
+50295,TOMOPTERIS,,,
+60272,HYDROMEDUSA,SINONIMOS,,
+60272,HYDROZOA,SINONIMOS,,
+60296,SIPHONOPHORA,,,
+60504,SALPIDA,,,
+60505,APPENDICULARIA,,,
+60506,DOLIOLIDA,,,
+60748,APOLEMIA,,,
+60749,SARSIA PRINCEPS,,,
+60751,AGLANTHA DIGITALE,,,
+90001,RADIOLARIA,,,
+90008,FORAMINIFERIDA,,,
+90121,HELIOZOA,,,
+3,CTENOPHORA,,,
+29,CHAETOGNATHA,,,
+30,ECHINODERMATA,,,

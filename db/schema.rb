@@ -10,10 +10,59 @@
 #
 # It's strongly recommended that you check this file into your version control system.
 
-ActiveRecord::Schema.define(version: 2020_06_11_090500) do
+ActiveRecord::Schema.define(version: 2020_06_11_095029) do
 
   # These are extensions that must be enabled in order to support this database
   enable_extension "plpgsql"
+
+  create_table "echograms", force: :cascade do |t|
+    t.string "echogramName"
+    t.date "recordDate"
+    t.string "recordTime"
+    t.float "latitude"
+    t.float "longitude"
+    t.integer "frequency"
+    t.integer "user_id"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "hauls", force: :cascade do |t|
+    t.string "echogramName"
+    t.date "fishDate"
+    t.string "strtFishTime"
+    t.string "stpFishTime"
+    t.float "strtFishLat"
+    t.float "stpFishLat"
+    t.float "strtFishLong"
+    t.float "stpFishLong"
+    t.float "strtFishDepth"
+    t.float "stpFishDepth"
+    t.float "bottomDepth"
+    t.float "fishSpeed"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "species", force: :cascade do |t|
+    t.string "speciesCode"
+    t.string "scientificName"
+    t.string "englishName"
+    t.string "frenchName"
+    t.string "spanishName"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
+
+  create_table "species_compositions", force: :cascade do |t|
+    t.integer "speciesCode"
+    t.float "percentage"
+    t.float "meanLength"
+    t.integer "bagNo"
+    t.string "echogramName"
+    t.datetime "created_at", null: false
+    t.datetime "updated_at", null: false
+  end
 
   create_table "users", force: :cascade do |t|
     t.string "name"
